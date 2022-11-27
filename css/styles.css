@@ -219,7 +219,7 @@ header {
 }
 /*------- Images -------*/
 
-.what-we-do .container h2 {
+.images-list .container h2 {
   color: var(--primary-black-color);
   font-size: 32px;
   font-weight: 700px;
@@ -228,15 +228,32 @@ header {
   margin-bottom: 30px;
 }
 
-.what-we-do .container ul {
+.images-list .container ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.what-we-do .container ul li {
+.images-list .container ul li {
   list-style: none;
-  width: 360px;
+  width: 370px;
+}
+
+.images-list .text-background {
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  top: 1543px;
+  width: 370px;
+  height: 70px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  padding: 27px;
+  
 }
 /*----------- section equipo de trabajo -----------*/
 .team-section {
@@ -417,8 +434,6 @@ margin-top: 15px;
   width: 370px;
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
